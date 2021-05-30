@@ -1,0 +1,172 @@
+.bory{
+  width:100%;
+  height: 100%;
+}
+
+.material-icons.icon-md { 
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 34px; 
+  }
+
+  .menu-icons {
+      display: flex;
+      align-items: center;
+      width:100%;
+  }
+
+
+  .header-text {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .vertical-line {
+    border-left: 1px solid rgba(96, 96, 96, 0.5);
+    height: 40px;
+    padding: 3%;
+
+  }
+
+  .img{
+max-width: 100%;
+width: 310px;
+height: 310px;
+ }
+
+  
+
+.img:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+  .list__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+ 
+
+    .list{
+      width: 100%;
+      height: 100%;
+      border-top: 1px solid #ddd;  
+    }
+
+  .poke{
+    width: 310px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+
+  .poke__thumbnail{
+    width: 100%;
+    height: 170px;
+  }
+
+
+  .title a,
+  span {
+    display: flex;
+    text-decoration: none;
+    color: rgb(96, 96, 96);
+    font-size: 15px;
+    justify-content:center;
+
+  }
+
+  .h1{
+    font-family: "Flexo-Medium",arial,sans-serif;
+    color: #212121;
+    float: left;
+    font-size: 225%;
+    margin-top: 0.5em;
+    text-align: center;
+    width: 100%;
+    word-break: break-word;
+
+}
+    .img_pokedex{
+      max-width: 100%;
+      width: 400px;
+      height: 200%;
+      margin-left: 200px;
+      height: 400px;
+      background-color: rgb(96, 96, 96);
+       }
+       
+       .pokemon{
+        max-width: 100%;
+        width: 400px;
+        height: 200%;
+        margin-left: 200px;
+        height: 400px;
+        background-color: rgb(96, 96, 96);
+       }
+
+       .box{
+        width: auto;
+        height: auto;
+        margin: 10% auto;
+       }
+
+       .poke_img{
+        margin-left: 150px; 
+        height: 300px;
+        width: auto;
+        background-color: #DEDEDE;
+       }
+
+       .container{
+    display:inline-block;
+    margin: 4px;
+}
+
+.glass{
+  
+  color: white;
+  background-color: greenyellow;
+  margin-left: 1cm;
+  margin-bottom: 200px;
+  padding: 0.5em 0;
+  width: 30%;
+}
+
+.fire{
+  color: white;
+  background-color: orangered;
+  margin-left: 1cm;
+  margin-bottom: 200px;
+  padding: 0.5em 0;
+  width: 30%; 
+}
+.wather{
+  color: white;
+  background-color: rgb(34, 22, 194);
+  margin-left: 1cm;
+  margin-bottom: 200px;
+  padding: 0.5em 0;
+  width: 30%; 
+}
+
+.poison{
+  color: white;
+  background-color: #A040A0;
+  margin-left: 1cm;
+  margin-bottom: 200px;
+  padding: 0.5em 0;
+  width: 30%; 
+}
+
+.normal{
+  color: white;
+  background-color: #b3b3b3;
+  margin-left: 1cm;
+  margin-bottom: 200px;
+  padding: 0.5em 0;
+  width: 30%;  
+}
